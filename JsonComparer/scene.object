@@ -1,0 +1,1146 @@
+{
+	"header" : {
+		"type" : "SceneDescription"
+	},
+	"resource" : {
+		"blend" : {
+			"destinationFactor" : "InverseSourceAlpha",
+			"enabled" : "true",
+			"sourceFactor" : "One",
+			"type" : "blendEffect"
+		},
+		"container" : {
+			"gpuStates" : ["blend"],
+			"parent" : "root",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"h" : 640,
+				"w" : 1136
+			},
+			"type" : "placeholder"
+		},
+		"inbox.button" : {
+			"type" : "stackedButton",
+			"parent" : "container",
+			"sprite" : false,
+			"position" : {
+				"x" : 796,
+				"y" : 51,
+				"z" : "51"
+			},
+			"size" : {
+				"h" : 105,
+				"w" : 251
+			},
+			"text" : null,
+			"down" : false,
+			"enabledId" : "_n1_inbox.button",
+			"touchArea" : {
+				"w" : 187,
+				"h" : 72,
+				"x" : 45,
+				"y" : 32
+			},
+			"pressedEnabledId" : "_n2_inbox.button"
+		},
+		"_n1_inbox.button" : {
+			"parent" : "inbox.button",
+			"type" : "sprite",
+			"sprite" : "147.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 251,
+				"h" : 105
+			}
+		},
+		"_n2_inbox.button" : {
+			"parent" : "inbox.button",
+			"type" : "sprite",
+			"sprite" : "149.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 251,
+				"h" : 105
+			}
+		},
+		"options.button" : {
+			"type" : "stackedButton",
+			"parent" : "container",
+			"sprite" : false,
+			"position" : {
+				"x" : 796,
+				"y" : 122,
+				"z" : "49"
+			},
+			"size" : {
+				"h" : 105,
+				"w" : 251
+			},
+			"text" : null,
+			"down" : false,
+			"enabledId" : "_n1_options.button",
+			"touchArea" : {
+				"w" : 192,
+				"h" : 68,
+				"x" : 40,
+				"y" : 35
+			},
+			"pressedEnabledId" : "_n2_options.button"
+		},
+		"_n1_options.button" : {
+			"parent" : "options.button",
+			"type" : "sprite",
+			"sprite" : "142.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 251,
+				"h" : 105
+			}
+		},
+		"_n2_options.button" : {
+			"parent" : "options.button",
+			"type" : "sprite",
+			"sprite" : "144.spr",
+			"position" : {
+				"x" : 33,
+				"y" : 31,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 198,
+				"h" : 73
+			}
+		},
+		"about.button" : {
+			"type" : "stackedButton",
+			"parent" : "container",
+			"sprite" : false,
+			"position" : {
+				"x" : 827,
+				"y" : 225,
+				"z" : "47"
+			},
+			"size" : {
+				"h" : 75,
+				"w" : 220
+			},
+			"text" : null,
+			"down" : false,
+			"enabledId" : "_n1_about.button",
+			"touchArea" : {
+				"w" : 191,
+				"h" : 71,
+				"x" : 9,
+				"y" : 1
+			},
+			"pressedEnabledId" : "_n2_about.button"
+		},
+		"_n1_about.button" : {
+			"parent" : "about.button",
+			"type" : "sprite",
+			"sprite" : "137.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 220,
+				"h" : 75
+			}
+		},
+		"_n2_about.button" : {
+			"parent" : "about.button",
+			"type" : "sprite",
+			"sprite" : "139.spr",
+			"position" : {
+				"x" : 2,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 198,
+				"h" : 74
+			}
+		},
+		"rate.button" : {
+			"type" : "stackedButton",
+			"parent" : "container",
+			"sprite" : false,
+			"position" : {
+				"x" : 766,
+				"y" : 297,
+				"z" : "45"
+			},
+			"size" : {
+				"h" : 95,
+				"w" : 281
+			},
+			"text" : null,
+			"down" : false,
+			"enabledId" : "_n1_rate.button",
+			"touchArea" : {
+				"w" : 190,
+				"h" : 72,
+				"x" : 71,
+				"y" : 1
+			},
+			"pressedEnabledId" : "_n2_rate.button"
+		},
+		"_n1_rate.button" : {
+			"parent" : "rate.button",
+			"type" : "sprite",
+			"sprite" : "132.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 1,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 281,
+				"h" : 94
+			}
+		},
+		"_n2_rate.button" : {
+			"parent" : "rate.button",
+			"type" : "sprite",
+			"sprite" : "134.spr",
+			"position" : {
+				"x" : 63,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 198,
+				"h" : 74
+			}
+		},
+		"hide.button" : {
+			"type" : "stackedButton",
+			"parent" : "container",
+			"sprite" : false,
+			"position" : {
+				"x" : 935,
+				"y" : 4,
+				"z" : "21"
+			},
+			"size" : {
+				"h" : 52,
+				"w" : 102
+			},
+			"text" : null,
+			"down" : false,
+			"enabledId" : "_n1_hide.button",
+			"touchArea" : {
+				"w" : 102,
+				"h" : 52,
+				"x" : 0,
+				"y" : 0
+			},
+			"pressedEnabledId" : "_n2_hide.button"
+		},
+		"_n1_hide.button" : {
+			"parent" : "hide.button",
+			"type" : "sprite",
+			"sprite" : "127.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 102,
+				"h" : 51
+			}
+		},
+		"_n2_hide.button" : {
+			"parent" : "hide.button",
+			"type" : "sprite",
+			"sprite" : "129.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 102,
+				"h" : 52
+			}
+		},
+		"back.button" : {
+			"type" : "stackedButton",
+			"parent" : "container",
+			"sprite" : false,
+			"position" : {
+				"x" : 99,
+				"y" : 4,
+				"z" : "16"
+			},
+			"size" : {
+				"h" : 52,
+				"w" : 103
+			},
+			"text" : null,
+			"down" : false,
+			"enabledId" : "_n1_back.button",
+			"touchArea" : {
+				"w" : 103,
+				"h" : 52,
+				"x" : 0,
+				"y" : 0
+			},
+			"pressedEnabledId" : "_n2_back.button"
+		},
+		"_n1_back.button" : {
+			"parent" : "back.button",
+			"type" : "sprite",
+			"sprite" : "122.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 103,
+				"h" : 52
+			}
+		},
+		"_n2_back.button" : {
+			"parent" : "back.button",
+			"type" : "sprite",
+			"sprite" : "124.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 103,
+				"h" : 52
+			}
+		},
+		"settings.button" : {
+			"type" : "stackedButton",
+			"parent" : "container",
+			"sprite" : false,
+			"position" : {
+				"x" : 935,
+				"y" : 4,
+				"z" : "14"
+			},
+			"size" : {
+				"h" : 52,
+				"w" : 102
+			},
+			"text" : null,
+			"down" : false,
+			"enabledId" : "_n1_settings.button",
+			"touchArea" : {
+				"w" : 98,
+				"h" : 45,
+				"x" : 2,
+				"y" : 5
+			},
+			"pressedEnabledId" : "_n2_settings.button"
+		},
+		"_n1_settings.button" : {
+			"parent" : "settings.button",
+			"type" : "sprite",
+			"sprite" : "117.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 102,
+				"h" : 52
+			}
+		},
+		"_n2_settings.button" : {
+			"parent" : "settings.button",
+			"type" : "sprite",
+			"sprite" : "119.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 102,
+				"h" : 52
+			}
+		},
+		"rewards.button" : {
+			"type" : "stackedButton",
+			"parent" : "container",
+			"sprite" : false,
+			"position" : {
+				"x" : 100,
+				"y" : 4,
+				"z" : "12"
+			},
+			"size" : {
+				"h" : 52,
+				"w" : 103
+			},
+			"text" : null,
+			"down" : false,
+			"enabledId" : "_n1_rewards.button",
+			"touchArea" : {
+				"w" : 99,
+				"h" : 48,
+				"x" : 2,
+				"y" : 2
+			},
+			"pressedEnabledId" : "_n2_rewards.button"
+		},
+		"_n1_rewards.button" : {
+			"parent" : "rewards.button",
+			"type" : "sprite",
+			"sprite" : "112.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 103,
+				"h" : 52
+			}
+		},
+		"_n2_rewards.button" : {
+			"parent" : "rewards.button",
+			"type" : "sprite",
+			"sprite" : "114.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 103,
+				"h" : 52
+			}
+		},
+		"buy.button" : {
+			"type" : "stackedButton",
+			"parent" : "container",
+			"sprite" : false,
+			"position" : {
+				"x" : 435,
+				"y" : 6,
+				"z" : "10"
+			},
+			"size" : {
+				"h" : 56,
+				"w" : 267
+			},
+			"text" : null,
+			"down" : false,
+			"enabledId" : "_n1_buy.button",
+			"touchArea" : {
+				"w" : 268,
+				"h" : 55,
+				"x" : -1,
+				"y" : 0
+			},
+			"pressedEnabledId" : "_n2_buy.button"
+		},
+		"_n1_buy.button" : {
+			"parent" : "buy.button",
+			"type" : "sprite",
+			"sprite" : "107.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 267,
+				"h" : 56
+			}
+		},
+		"_n2_buy.button" : {
+			"parent" : "buy.button",
+			"type" : "sprite",
+			"sprite" : "109.spr",
+			"position" : {
+				"x" : 0,
+				"y" : 0,
+				"z" : 0
+			},
+			"size" : {
+				"w" : 267,
+				"h" : 56
+			}
+		},
+		"numbergiftsinbox.text" : {
+			"type" : "text",
+			"parent" : "container",
+			"sprite" : "105.spr",
+			"position" : {
+				"x" : 993,
+				"y" : 103,
+				"z" : "55"
+			},
+			"font" : "gift_count.fnt",
+			"capitalization" : "",
+			"text" : "",
+			"color" : {
+				"r" : null,
+				"g" : null,
+				"b" : null
+			},
+			"horizontalAlignment" : "Center",
+			"verticalAlignment" : "Center",
+			"scale" : {
+				"x" : null,
+				"y" : null
+			}
+		},
+		"tipgifts1inbox.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "102.spr",
+			"position" : {
+				"x" : 978,
+				"y" : 80,
+				"z" : "54"
+			},
+			"size" : {
+				"h" : 35,
+				"w" : 35
+			},
+			"text" : null
+		},
+		"tipgifts2inbox.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "99.spr",
+			"position" : {
+				"x" : 971,
+				"y" : 80,
+				"z" : "53"
+			},
+			"size" : {
+				"h" : 35,
+				"w" : 48
+			},
+			"text" : null
+		},
+		"tipgifts3inbox.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "96.spr",
+			"position" : {
+				"x" : 964,
+				"y" : 80,
+				"z" : "52"
+			},
+			"size" : {
+				"h" : 36,
+				"w" : 62
+			},
+			"text" : null
+		},
+		"tipbg.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "93.spr",
+			"position" : {
+				"x" : 812,
+				"y" : 50,
+				"z" : "43"
+			},
+			"size" : {
+				"h" : 346,
+				"w" : 236
+			},
+			"text" : null
+		},
+		"piggy.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "90.spr",
+			"position" : {
+				"x" : 642,
+				"y" : 177,
+				"z" : "42"
+			},
+			"size" : {
+				"h" : 26,
+				"w" : 29
+			},
+			"text" : null
+		},
+		"star1.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "87.spr",
+			"position" : {
+				"x" : 642,
+				"y" : 140,
+				"z" : "41"
+			},
+			"size" : {
+				"h" : 28,
+				"w" : 29
+			},
+			"text" : null
+		},
+		"dollar.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "84.spr",
+			"position" : {
+				"x" : 642,
+				"y" : 212,
+				"z" : "40"
+			},
+			"size" : {
+				"h" : 28,
+				"w" : 29
+			},
+			"text" : null
+		},
+		"experience_tip.text" : {
+			"type" : "text",
+			"parent" : "container",
+			"sprite" : "82.spr",
+			"position" : {
+				"x" : 643.333333333333,
+				"y" : 107.666666666667,
+				"z" : "39"
+			},
+			"font" : "Title.fnt",
+			"capitalization" : "",
+			"text" : "",
+			"color" : {
+				"r" : null,
+				"g" : null,
+				"b" : null
+			},
+			"horizontalAlignment" : "Left",
+			"verticalAlignment" : "Center",
+			"scale" : {
+				"x" : 0.9,
+				"y" : 0.9
+			}
+		},
+		"pointsto.textsprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "79.spr",
+			"position" : {
+				"x" : 733,
+				"y" : 90,
+				"z" : "38"
+			},
+			"size" : {
+				"h" : 39,
+				"w" : 110
+			},
+			"text" : null
+		},
+		"level_tip.text" : {
+			"type" : "text",
+			"parent" : "container",
+			"sprite" : "77.spr",
+			"position" : {
+				"x" : 975.666666666667,
+				"y" : 107.333333333333,
+				"z" : "37"
+			},
+			"font" : "Title.fnt",
+			"capitalization" : "",
+			"text" : "",
+			"color" : {
+				"r" : 255,
+				"g" : 135,
+				"b" : 189
+			},
+			"horizontalAlignment" : "Right",
+			"verticalAlignment" : "Center",
+			"scale" : {
+				"x" : null,
+				"y" : null
+			}
+		},
+		"levelupbonus.text" : {
+			"type" : "text",
+			"parent" : "container",
+			"sprite" : "75.spr",
+			"position" : {
+				"x" : 976.666666666667,
+				"y" : 157,
+				"z" : "36"
+			},
+			"font" : "Title.fnt",
+			"capitalization" : "",
+			"text" : "",
+			"color" : {
+				"r" : 255,
+				"g" : 135,
+				"b" : 189
+			},
+			"horizontalAlignment" : "Right",
+			"verticalAlignment" : "Center",
+			"scale" : {
+				"x" : null,
+				"y" : null
+			}
+		},
+		"dailybonus.text" : {
+			"type" : "text",
+			"parent" : "container",
+			"sprite" : "73.spr",
+			"position" : {
+				"x" : 976,
+				"y" : 193.833333333333,
+				"z" : "35"
+			},
+			"font" : "Title.fnt",
+			"capitalization" : "",
+			"text" : "",
+			"color" : {
+				"r" : 255,
+				"g" : 135,
+				"b" : 189
+			},
+			"horizontalAlignment" : "Right",
+			"verticalAlignment" : "Center",
+			"scale" : {
+				"x" : null,
+				"y" : null
+			}
+		},
+		"freecoinsbonus.text" : {
+			"type" : "text",
+			"parent" : "container",
+			"sprite" : "71.spr",
+			"position" : {
+				"x" : 976.666666666666,
+				"y" : 228.333333333333,
+				"z" : "34"
+			},
+			"font" : "Title.fnt",
+			"capitalization" : "",
+			"text" : "",
+			"color" : {
+				"r" : 255,
+				"g" : 135,
+				"b" : 189
+			},
+			"horizontalAlignment" : "Right",
+			"verticalAlignment" : "Center",
+			"scale" : {
+				"x" : null,
+				"y" : null
+			}
+		},
+		"levelupbonus.textsprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "68.spr",
+			"position" : {
+				"x" : 673,
+				"y" : 138,
+				"z" : "33"
+			},
+			"size" : {
+				"h" : 41,
+				"w" : 204
+			},
+			"text" : null
+		},
+		"dailybonus.textsprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "65.spr",
+			"position" : {
+				"x" : 673,
+				"y" : 173,
+				"z" : "32"
+			},
+			"size" : {
+				"h" : 41,
+				"w" : 158
+			},
+			"text" : null
+		},
+		"freecoinsbonus.textsprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "62.spr",
+			"position" : {
+				"x" : 673,
+				"y" : 209,
+				"z" : "31"
+			},
+			"size" : {
+				"h" : 37,
+				"w" : 228
+			},
+			"text" : null
+		},
+		"borders.placeholder" : {
+			"type" : "placeholder",
+			"parent" : "container",
+			"sprite" : null,
+			"position" : {
+				"x" : 642.333333333333,
+				"y" : 140.333333333333,
+				"z" : "30"
+			},
+			"size" : {
+				"h" : 29,
+				"w" : 326.333333333333
+			},
+			"text" : null
+		},
+		"lefttip.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "57.spr",
+			"position" : {
+				"x" : 603,
+				"y" : 58,
+				"z" : "29"
+			},
+			"size" : {
+				"h" : 223,
+				"w" : 171
+			},
+			"text" : null
+		},
+		"righttip.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "54.spr",
+			"position" : {
+				"x" : 847,
+				"y" : 58,
+				"z" : "28"
+			},
+			"size" : {
+				"h" : 223,
+				"w" : 160
+			},
+			"text" : null
+		},
+		"cornertip.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "51.spr",
+			"position" : {
+				"x" : 800,
+				"y" : 68,
+				"z" : "27"
+			},
+			"size" : {
+				"h" : 16,
+				"w" : 21
+			},
+			"text" : null
+		},
+		"centertip.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "48.spr",
+			"position" : {
+				"x" : 773,
+				"y" : 51.15,
+				"z" : "26"
+			},
+			"size" : {
+				"h" : 230,
+				"w" : 75
+			},
+			"text" : null
+		},
+		"numbergifts.text" : {
+			"type" : "text",
+			"parent" : "container",
+			"sprite" : "46.spr",
+			"position" : {
+				"x" : 1010,
+				"y" : 51,
+				"z" : "25"
+			},
+			"font" : "gift_count.fnt",
+			"capitalization" : "",
+			"text" : "",
+			"color" : {
+				"r" : null,
+				"g" : null,
+				"b" : null
+			},
+			"horizontalAlignment" : "Center",
+			"verticalAlignment" : "Center",
+			"scale" : {
+				"x" : null,
+				"y" : null
+			}
+		},
+		"tipgifts1.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "43.spr",
+			"position" : {
+				"x" : 995,
+				"y" : 28,
+				"z" : "24"
+			},
+			"size" : {
+				"h" : 35,
+				"w" : 35
+			},
+			"text" : null
+		},
+		"tipgifts2.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "40.spr",
+			"position" : {
+				"x" : 988,
+				"y" : 28,
+				"z" : "23"
+			},
+			"size" : {
+				"h" : 35,
+				"w" : 48
+			},
+			"text" : null
+		},
+		"tipgifts3.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "37.spr",
+			"position" : {
+				"x" : 981,
+				"y" : 28,
+				"z" : "22"
+			},
+			"size" : {
+				"h" : 36,
+				"w" : 62
+			},
+			"text" : null
+		},
+		"coins.text" : {
+			"type" : "text",
+			"parent" : "container",
+			"sprite" : "35.spr",
+			"position" : {
+				"x" : 411,
+				"y" : 35,
+				"z" : "19"
+			},
+			"font" : "money.fnt",
+			"capitalization" : "",
+			"text" : "",
+			"color" : {
+				"r" : null,
+				"g" : null,
+				"b" : null
+			},
+			"horizontalAlignment" : "Right",
+			"verticalAlignment" : "Center",
+			"scale" : {
+				"x" : null,
+				"y" : null
+			}
+		},
+		"level.text" : {
+			"type" : "text",
+			"parent" : "container",
+			"sprite" : "33.spr",
+			"position" : {
+				"x" : 756.333333333333,
+				"y" : 34,
+				"z" : "18"
+			},
+			"font" : "level.fnt",
+			"capitalization" : "",
+			"text" : "",
+			"color" : {
+				"r" : null,
+				"g" : null,
+				"b" : null
+			},
+			"horizontalAlignment" : "Left",
+			"verticalAlignment" : "Center",
+			"scale" : {
+				"x" : null,
+				"y" : null
+			}
+		},
+		"star2.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "30.spr",
+			"position" : {
+				"x" : 720,
+				"y" : 15,
+				"z" : "17"
+			},
+			"size" : {
+				"h" : 26,
+				"w" : 27
+			},
+			"text" : null
+		},
+		"radiusleft.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "27.spr",
+			"position" : {
+				"x" : 706,
+				"y" : 9,
+				"z" : "8"
+			},
+			"size" : {
+				"h" : 42,
+				"w" : 16
+			},
+			"text" : null
+		},
+		"radiusright.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "24.spr",
+			"position" : {
+				"x" : 893,
+				"y" : 9,
+				"z" : "7"
+			},
+			"size" : {
+				"h" : 42,
+				"w" : 22
+			},
+			"text" : null
+		},
+		"center.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "21.spr",
+			"position" : {
+				"x" : 722,
+				"y" : 9,
+				"z" : "6"
+			},
+			"size" : {
+				"h" : 42,
+				"w" : 172
+			},
+			"text" : null
+		},
+		"coinslightscopy.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "18.spr",
+			"position" : {
+				"x" : 699,
+				"y" : 7,
+				"z" : "5"
+			},
+			"size" : {
+				"h" : 46,
+				"w" : 219
+			},
+			"text" : null
+		},
+		"coinslights.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "15.spr",
+			"position" : {
+				"x" : 219,
+				"y" : 7,
+				"z" : "4"
+			},
+			"size" : {
+				"h" : 46,
+				"w" : 220
+			},
+			"text" : null
+		},
+		"bevel.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "12.spr",
+			"position" : {
+				"x" : 218,
+				"y" : 6,
+				"z" : "3"
+			},
+			"size" : {
+				"h" : 48,
+				"w" : 701
+			},
+			"text" : null
+		},
+		"coinsbg.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "9.spr",
+			"position" : {
+				"x" : 219,
+				"y" : 7,
+				"z" : "2"
+			},
+			"size" : {
+				"h" : 46,
+				"w" : 219
+			},
+			"text" : null
+		},
+		"progressbg.sprite" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "6.spr",
+			"position" : {
+				"x" : 700,
+				"y" : 7,
+				"z" : "1"
+			},
+			"size" : {
+				"h" : 47,
+				"w" : 218
+			},
+			"text" : null
+		},
+		"bg" : {
+			"type" : "sprite",
+			"parent" : "container",
+			"sprite" : "3.spr",
+			"position" : {
+				"x" : 88,
+				"y" : 0,
+				"z" : "0"
+			},
+			"size" : {
+				"h" : 97,
+				"w" : 960
+			},
+			"text" : null
+		}
+	}
+}
